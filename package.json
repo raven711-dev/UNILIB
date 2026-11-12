@@ -1,0 +1,7 @@
+{
+  "name": "unilib",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UNILIB — المكتبة الجامعية الرقمية",
+  "scripts": { "test:db": "python3 tests/test_schema.py" }
+}
