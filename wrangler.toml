@@ -1,9 +1,8 @@
-name = "unilib"
+name = "unilib-bot"
 main = "src/index.js"
 compatibility_date = "2026-11-01"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "unilib-db"
-database_id = "REPLACE_AFTER_CREATING_D1"   # قيمة مؤقتة: تُستبدل بعد إنشاء القاعدة
-migrations_dir = "migrations"
+database_id = "0636a7cb-3d5e-4e7f-87e0-e8317a1c9721"
