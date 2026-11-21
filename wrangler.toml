@@ -6,3 +6,7 @@ compatibility_date = "2026-11-01"
 binding = "DB"
 database_name = "unilib-db"
 database_id = "0636a7cb-3d5e-4e7f-87e0-e8317a1c9721"
+
+# تشغيل دفعات الإعلانات كل دقيقة (حد Telegram وحدود Workers المجانية)
+[triggers]
+crons = ["* * * * *"]
